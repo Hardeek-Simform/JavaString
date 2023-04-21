@@ -1,11 +1,11 @@
 package com.string;
 
-public class Strings {
+public class Main {
     public static void main(java.lang.String[] args) {
-        String topicName = new String();
+        String topicName = "Java String";
         StringBuffer introduction = new StringBuffer();
         StringBuilder mainContent = new StringBuilder();
-        topicName = "Java String";
+
         introduction.append("In Java, string is basically an object that represents sequence of char values.\n");
         introduction.append("Java String class provides a lot of methods to perform operations on strings such as compare(),\n");
         introduction.append("concat(), equals(), split(), length(), replace(), compareTo(), intern(), substring() etc.\n");
